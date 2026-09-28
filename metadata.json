@@ -1,0 +1,6 @@
+{
+  "name": "Markets Overview — Global Financial Markets",
+  "description": "Interactive global financial markets portal tracking real-time indices, stocks, crypto, commodities, currencies, and bond yields.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

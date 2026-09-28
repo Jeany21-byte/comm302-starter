@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --color-tv-text: #131722;
+  --color-tv-muted: #787b86;
+  --color-tv-lightGray: #f0f3fa;
+  --color-tv-border: #e0e3eb;
+  --color-tv-blue: #2962ff;
+  --color-tv-blueHover: #1e53e5;
+  --color-tv-green: #089981;
+  --color-tv-greenBg: #e6f7f3;
+  --color-tv-red: #f23645;
+  --color-tv-redBg: #fef0f1;
+  --color-tv-cardBg: #f8f9fd;
+  --color-tv-hoverBg: #f0f3fa;
+}
+
+/* Custom scrollbar utility */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Gradient CTA button */
+.tv-btn-gradient {
+  background: linear-gradient(135deg, #1e53e5 0%, #7c3aed 100%);
+  transition: opacity 0.15s ease-in-out, transform 0.15s ease-in-out;
+}
+.tv-btn-gradient:hover {
+  opacity: 0.92;
+  transform: translateY(-0.5px);
+}
+.tv-btn-gradient:active {
+  transform: translateY(0);
+}
